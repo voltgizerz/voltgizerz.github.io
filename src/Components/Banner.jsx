@@ -13,8 +13,8 @@ class Banner extends Component {
                 <img id="profilepic" src={profile} width="170" height="170" alt="profilepic" />
                 <h1>Felix Fernando Wijaya</h1>
                 <h4>Undergratuate Student</h4>
-                <h4><i>"Third year Information Technologist Undergraduate Student at Atma Jaya Yogyakarta University, interested to persue career in Back End Web Development, Mobile Development, Corporate Problem Solving and Creative Thinking"</i></h4>
-                <a href="https://www.cv-template.com/en/builder/cv/1914306/download"><img src={CV} width="40" height="40" alt="LinkedIn" /></a>
+                <h4><i>"Final year Information Technologist Undergraduate Student at Atma Jaya Yogyakarta University, interested Software Development, Corporate Problem Solving and Creative Thinking"</i></h4>
+                <a href="https://www.linkedin.com/in/felix-fernando-wijaya/"><img src={CV} width="40" height="40" alt="LinkedIn" /></a>
                 <section id="skillheader" className="flex-project-container">
                     <div><a href="https://www.linkedin.com/in/felix-fernando-wijaya/" target="_blank"
                         rel="noopener noreferrer"><img src={linkedin} width="80" height="80" alt="LinkedIn" /></a></div>
