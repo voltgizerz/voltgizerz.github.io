@@ -12,8 +12,9 @@ class Banner extends Component {
             <section className="container-banner">
                 <img id="profilepic" src={profile} width="170" height="170" alt="profilepic" />
                 <h1>Felix Fernando Wijaya</h1>
-                <h4>Undergratuate Student</h4>
-                <h4><i>"Final year Information Technologist Undergraduate Student at Atma Jaya Yogyakarta University, interested Software Development, Corporate Problem Solving and Creative Thinking"</i></h4>
+                <h4>Software Engineer</h4>
+                <h4><i>"A software engineer, I am majoring in Informatics at Atma Jaya Yogyakarta University with an interest in software development, especially in back-end processes. I love to create something impactful and learn about technology."</i></h4>
+                <h5>Skills: Go, Python, Node.js, Ruby on Rails, Node.js, MySQL, MongoDB, GraphQL, REST APIs, Microservice, Docker.</h5>
                 <a href="https://www.linkedin.com/in/felix-fernando-wijaya/"><img src={CV} width="40" height="40" alt="LinkedIn" /></a>
                 <section id="skillheader" className="flex-project-container">
                     <div><a href="https://www.linkedin.com/in/felix-fernando-wijaya/" target="_blank"
@@ -26,7 +27,6 @@ class Banner extends Component {
                         rel="noopener noreferrer"><img src={mail} width="80" height="80" alt="Mail" /></a></div>
                 </section>
             </section>
-
         )
     }
 }

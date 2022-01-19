@@ -4,10 +4,9 @@ import  './css/Main.css'
 
 class Header extends Component {
     render() {
-        document.title = 'Felix Fernando'
         return (
             <div id="home">   
-                <h1 className="header-h1">HELLO WORLD;</h1>
+                <h1 className="header-h1">WELCOME</h1>
             </div>
         )
     }
