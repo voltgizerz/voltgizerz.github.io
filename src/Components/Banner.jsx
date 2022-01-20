@@ -12,7 +12,7 @@ class Banner extends Component {
                 <img id="profilepic" src="https://avatars.githubusercontent.com/u/54938467?s=400&u=224f8c7b42b3da22a074dc0124959773796fa9e8&v=4" width="170" height="170" alt="profilepic" />
                 <h1>Felix Fernando Wijaya</h1>
                 <h4>Software Engineer</h4>
-                <h4><i>"A software engineer, I am major in Informatics at Atma Jaya Yogyakarta University with an interest in software development, especially in back-end processes. I love to create impactful software and learn about technology."</i></h4>
+                <h4>"I am a software engineer with one year of experience, currently working as a back-end software engineer. I am majoring in Informatics at Atma Jaya Yogyakarta University and have a strong interest in software development, especially in back-end processes. I love to create impactful software and learn about tech."</h4>
                 <h5>Skills: Go, Python, Java, Node.js, Ruby on Rails, Node.js, MySQL, MongoDB, GraphQL, REST APIs, Git, Microservice, Docker.</h5>
                 <a href="https://www.linkedin.com/in/felix-fernando-wijaya/"><img src={CV} width="40" height="40" alt="LinkedIn" /></a>
                 <section id="skillheader" className="flex-project-container">
