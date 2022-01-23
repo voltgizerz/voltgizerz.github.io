@@ -3,7 +3,6 @@ import linkedin from '../Components/public/image/linkedin.png'
 import twitter from '../Components/public/image/twitter.png'
 import github from '../Components/public/image/github.png'
 import mail from '../Components/public/image/mail.png'
-import CV from '../Components/public/image/CV.png'
 
 class Banner extends Component {
 render() {
@@ -76,8 +75,6 @@ return (
         <img id="skill-linux" src="https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux" alt="Linux" />
         <img id="skill-aws" src="https://img.shields.io/badge/-Amazon_Web_Service-black?style=flat-square&logo=amazon-aws" alt="aws" />
     </h5>
-    <a href="https://www.linkedin.com/in/felix-fernando-wijaya/"><img src={CV} width="40" height="40"
-            alt="LinkedIn" /></a>
     <section id="skillheader" className="flex-project-container">
         <div><a href="https://www.linkedin.com/in/felix-fernando-wijaya/" target="_blank" rel="noopener noreferrer"><img
                     src={linkedin} width="80" height="80" alt="LinkedIn" /></a></div>
