@@ -13,9 +13,8 @@ return (
         width="170" height="170" alt="profilepic" />
     <h1>Felix Fernando Wijaya</h1>
     <h4>Software Engineer</h4>
-    <h4>"I am a software engineer with one year of experience, currently working as a back-end software engineer. I am
-        majoring in Informatics at Atma Jaya Yogyakarta University and have a strong interest in software development,
-        especially in back-end processes. I love to create impactful software and learn about tech."</h4>
+    <h4>"A Software Engineer, Informatics graduated from Atma Jaya Yogyakarta University, passionate in software development,
+        especially in back-end processes. Loves to create impactful software and learn about tech."</h4>
     <h4>Languages</h4>
     <h5>
         <img id="skill-go" src="https://img.shields.io/badge/-Go-black?style=flat-square&logo=Go" alt="go" />
@@ -82,7 +81,7 @@ return (
                     width="80" height="80" alt={"Twitter"} /></a></div>
         <div><a href="https://github.com/voltgizerz" target="_blank" rel="noopener noreferrer"><img src={github}
                     width="80" height="80" alt="Github" /></a></div>
-        <div><a href="https://mail.google.com/mail/?view=cm&fs=1&to=felix.asui@gmail.com" target="_blank"
+        <div><a href="https://mail.google.com/mail/?view=cm&fs=1&to=felix.fernandowi@gmail.com" target="_blank"
                 rel="noopener noreferrer"><img src={mail} width="80" height="80" alt="Mail" /></a></div>
     </section>
 </section>
