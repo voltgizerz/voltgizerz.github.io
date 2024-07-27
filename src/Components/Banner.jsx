@@ -82,9 +82,9 @@ const getLink = (key) => {
 const Banner = () => {
     const languages = [
         { src: "https://img.shields.io/badge/-Go-black?style=flat-square&logo=Go", alt: "Go" },
+        { src: "https://img.shields.io/badge/-Python-black?style=flat-square&logo=python", alt: "Python" },
         { src: "https://img.shields.io/badge/-Ruby-black?style=flat-square&logo=ruby", alt: "Ruby" },
         { src: "https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript", alt: "JavaScript" },
-        { src: "https://img.shields.io/badge/-Python-black?style=flat-square&logo=python", alt: "Python" },
         { src: "https://img.shields.io/badge/-PHP-black?style=flat-square&logo=php", alt: "PHP" },
         { src: "https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk", alt: "Java" },
         { src: "https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js", alt: "Node.js" }
@@ -98,7 +98,7 @@ const Banner = () => {
         { src: "https://img.shields.io/badge/-Flask-black?style=flat-square&logo=flask", alt: "Flask" },
         { src: "https://img.shields.io/badge/-Mux-black?style=flat-square&logo=mux", alt: "Mux" },
         { src: "https://img.shields.io/badge/-Gin-black?style=flat-square&logo=gin", alt: "Gin" },
-        { src: "https://img.shields.io/badge/-Gqlgen-black?style=flat-square&logo=gql-gen", alt: "Gqlgen" }
+        { src: "https://img.shields.io/badge/-Gqlgen-black?style=flat-square&logo=gql-gen", alt: "gqlgen" }
     ];
 
     const databases = [
@@ -112,12 +112,14 @@ const Banner = () => {
         { src: "https://img.shields.io/badge/-Git-black?style=flat-square&logo=git", alt: "Git" },
         { src: "https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github", alt: "GitHub" },
         { src: "https://img.shields.io/badge/-Bitbucket-black?style=flat-square&logo=bitbucket", alt: "Bitbucket" },
-        { src: "https://img.shields.io/badge/-Microservices-black?style=flat-square&logo=microservices", alt: "Microservices" },
-        { src: "https://img.shields.io/badge/-REST_APIs-black?style=flat-square&logo=rest", alt: "REST APIs" },
+        { src: "https://img.shields.io/badge/-Microservices-black?style=flat-square&logo=microservices", alt: "Microservices"},
+        { src: "https://img.shields.io/badge/-Concurrency-black?style=flat-square&logo=concurrency", alt: "Concurrency"},
+        { src: "https://img.shields.io/badge/-REST_APIs-black?style=flat-square&logo=api", alt: "REST APIs" },
         { src: "https://img.shields.io/badge/-GraphQL-black?style=flat-square&logo=graphql", alt: "GraphQL" },
-        { src: "https://img.shields.io/badge/-gRPC-black?style=flat-square&logo=GRPC", alt: "gRPC" },
+        { src: "https://img.shields.io/badge/-gRPC-black?style=flat-square&logo=gRPC", alt: "gRPC" },
         { src: "https://img.shields.io/badge/-Apollo%20GraphQL-black?style=flat-square&logo=apollo-graphql", alt: "Apollo GraphQL" },
         { src: "https://img.shields.io/badge/-RabbitMQ-black?style=flat-square&logo=rabbitmq", alt: "RabbitMQ" },
+        { src: "https://img.shields.io/badge/-NSQ-black?style=flat-square&logo=nsq", alt: "NSQ" },
         { src: "https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker", alt: "Docker" },
         { src: "https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux", alt: "Linux" },
         { src: "https://img.shields.io/badge/-Amazon_Web_Service-black?style=flat-square&logo=amazon-aws", alt: "AWS" }

@@ -2,42 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/54938467?s=400&u=224f8c7b42b3da22a074dc0124959773796fa9e8&v=4" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Hi, I'm Felix currently working as a back-end software engineer at Tokopedia. I graduated from Atma Jaya Yogyakarta University with a strong interest and passion for software development, especially in the back-end processes. I love to create something impactful and fight with logic."
-    />
-    <link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/54938467?s=400&u=224f8c7b42b3da22a074dc0124959773796fa9e8&v=4" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="description" content="Hi, I'm Felix, a back-end software engineer at Tokopedia. Graduated from Atma Jaya Yogyakarta University with a strong passion for software development, especially in back-end processes. I love creating impactful solutions and fighting with logic." />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Felix Fernando Wijaya - Software Engineer</title>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://voltgizerz.online/" />
+    <meta property="og:title" content="Felix Fernando Wijaya - Software Engineer - Tokopedia" />
+    <meta property="og:description" content="Hi, I'm Felix, a back-end software engineer at Tokopedia with a passion for software development." />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/54938467?s=400&u=224f8c7b42b3da22a074dc0124959773796fa9e8&v=4" />
+
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/54938467?s=400&u=224f8c7b42b3da22a074dc0124959773796fa9e8&v=4" />
+    <link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/54938467?s=400&u=224f8c7b42b3da22a074dc0124959773796fa9e8&v=4" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>Felix Fernando Wijaya - Software Engineer - Tokopedia</title>
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Felix Fernando Wijaya",
+        "jobTitle": "Software Engineer",
+        "image": "https://avatars.githubusercontent.com/u/54938467?s=400&u=224f8c7b42b3da22a074dc0124959773796fa9e8&v=4",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Tokopedia"
+        },
+        "alumniOf": "Atma Jaya Yogyakarta University",
+        "sameAs": [
+          "https://www.linkedin.com/in/felix-fernando-wijaya/",
+          "https://twitter.com/felix_fernand0",
+          "https://github.com/voltgizerz"
+        ],
+        "description": "Hi, I'm Felix, a back-end software engineer at Tokopedia with a passion for software development."
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
