@@ -1,25 +1,25 @@
-.header-h1{
+.header-h1 {
     color: antiquewhite;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    margin:auto;
+    margin: auto;
 }
 
 
-.navbar{
+.navbar {
     background-color: rgb(255, 246, 246);
     border-radius: 15px;
     border-style: hidden;
-    padding: 18px; 
+    padding: 18px;
     text-align: center;
     width: auto;
     position: sticky;
-    top:0;
+    top: 0;
     z-index: 1;
 }
 
-.navbar a{
+.navbar a {
     color: rgb(27, 22, 22);
     text-decoration: none;
     padding: 10px;
@@ -28,30 +28,32 @@
     color: black;
     font-size: 17px;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background-color: #ca8585;
     border-style: hidden;
     border-radius: 5px;
     color: rgb(255, 254, 253);
 }
 
-@media screen and (max-width:500px){
-    .navbar{
+@media screen and (max-width:500px) {
+    .navbar {
         background-color: rgb(255, 246, 246);
         border-radius: 15px;
         border-style: hidden;
-        padding: 0px; 
+        padding: 0px;
         margin: auto;
         text-align: center;
         display: flex;
         flex-direction: row;
         height: 50px;
         padding-bottom: 14px;
-        
-     }
+
+    }
 
 }
-@media screen and (max-width:350px){
+
+@media screen and (max-width:350px) {
 
     .navbar {
         color: rgb(27, 22, 22);
@@ -64,13 +66,13 @@
         display: flex;
         flex-direction: column;
         height: 200px;
-        
-      }
-      
+
+    }
+
 
 }
 
-.container-banner{
+.container-banner {
     background-color: #f1f1f1;
     text-align: center;
     border-style: hidden;
@@ -78,42 +80,45 @@
     font-family: 'Ruda', sans-serif;
 }
 
-#profilepic{
+#profile-pic {
     border-radius: 85px;
     padding-top: 10px;
 }
 
-.container-about{
+.container-about {
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     border-style: hidden;
-    padding: 18px; 
+    padding: 18px;
     text-align: center;
 }
 
-.container-about>p{
+.container-about>p {
     font-family: 'Slabo 27px', serif;
     font-size: 20px;
     padding-right: 30px;
     padding-left: 30px;
-  
+
 
 }
-.container-about>h1{
+
+.container-about>h1 {
     font-family: 'Ruda', sans-serif;
 }
 
-.flex-project-container{
+.flex-project-container {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
-.flex-project-container>div{
+
+.flex-project-container>div {
     background-color: #f1f1f1;
     width: 150px;
-    height: 150px;;
+    height: 150px;
+    ;
     margin: 10px;
     text-align: center;
     line-height: 75px;
@@ -122,76 +127,71 @@
     border-radius: 30px;
 }
 
-.flex-project-container img{
+.flex-project-container img {
     margin-top: 27px;
 }
 
-.flex-project-container > div:hover
-{
-transform: scale(1.1);
+.flex-project-container>div:hover {
+    transform: scale(1.1);
 
 }
 
-.projects{
+.projects {
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     border-style: hidden;
-    padding: 18px; 
+    padding: 18px;
     text-align: center;
-    
+
 }
-.projects h1{
+
+.projects h1 {
     font-family: 'Ruda', sans-serif;
 }
 
-.projects p{
+.projects p {
     font-family: 'Slabo 27px', serif;
     font-size: 20px;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.container a{
+.container a {
     padding-right: 10px;
     text-decoration: none;
-  
+
 }
 
-.container p{
-    
+.container p {
+
     color: black;
     font-family: 'Slabo 27px', serif;
 }
 
-.container a:hover
-{
-transform: scale(1.1);
+.container a:hover {
+    transform: scale(1.1);
 }
 
-.container-1{
+.footer {
     color: #f1f1f1;
     text-align: center;
     font-family: 'Saira Semi Condensed', sans-serif;
     font-size: 16px;
-   
-     
 }
 
-.container-1 > a{
+.footer>a {
     padding-left: 5px;
     font-size: 22px;
     text-decoration: none;
-    
-}
-span:hover{
-    text-decoration: none;
-    transform: scale(1.5);
-    
 }
 
-      
+span:hover {
+    text-decoration: none;
+    transform: scale(1.5);
+
+}
