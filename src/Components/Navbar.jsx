@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './css/Main.css'
 
-
 class Navbar extends Component {
     render() {
         return (
