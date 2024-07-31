@@ -10,7 +10,7 @@ const imageConfig = {
     twitter: twitter,
     github: github,
     mail: mail,
-    profilePic: "https://avatars.githubusercontent.com/u/54938467?s=400&u=224f8c7b42b3da22a074dc0124959773796fa9e8&v=4"
+    profilePic: "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbG56ems3YW0xNjc1MzBmbDFqNXprczB3ciIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbH19"
 };
 
 // Profile Component
