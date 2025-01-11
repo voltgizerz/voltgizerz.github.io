@@ -25,9 +25,9 @@ const Profile = () => (
         />
         <h1>Felix Fernando Wijaya</h1>
         <h4>Software Engineer</h4>
-        <h4>
-            "Hi, I'm Felix currently working as a back-end software engineer at Tokopedia. I graduated from Atma Jaya Yogyakarta University with a strong interest and passion for software development, especially in the back-end processes. I love to create something impactful and fight with logic."
-        </h4>
+        <p>
+            "Hi, I'm Felix currently working as a Back-End Software Engineer at Tokopedia. I graduated from Atma Jaya Yogyakarta University with a strong interest and passion for software development, especially in the back-end processes. I love to create something impactful and fight with logic."
+        </p>
     </div>
 );
 

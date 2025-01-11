@@ -193,5 +193,44 @@
 span:hover {
     text-decoration: none;
     transform: scale(1.5);
+}
 
+/* Ensure the body takes up the full screen height */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+}
+
+/* Root container should take up remaining height */
+#root {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content container */
+.profile-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Footer should stick to the bottom */
+.footer {
+    color: #f1f1f1;
+    text-align: center;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 16px;
+    background-color: #111;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
