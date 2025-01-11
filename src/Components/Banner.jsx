@@ -128,9 +128,10 @@ const Banner = () => {
     return (
         <section className="container-banner">
             <Profile />
+            <br />
             <Skills title="Programming Languages" skills={languages} />
             <Skills title="Frameworks & Libraries" skills={frameworks} />
-            <Skills title="Databases & Storage" skills={databases} />
+            <Skills title="Databases" skills={databases} />
             <Skills title="Technical Knowledge & Tools" skills={knowledges} />
             <ContactLinks />
         </section>

@@ -4,7 +4,7 @@ class Contact extends Component {
     render() {
         return (
             <footer className="footer">
-                <h4>© {new Date().getFullYear()} Felix Fernando Wijaya. All Rights Reserved.</h4>
+                <h4>© {new Date().getFullYear()} Made with ❤️ by Felix Fernando Wijaya.</h4>
             </footer>
         );
     }

@@ -1,5 +1,5 @@
 body {
-  background-color: #282c34;
+  background-color: #000000;
  
 }
 
@@ -17,7 +17,7 @@ body {
 :root {
   --background: white;
   --text-primary: black;
-  --text-secondary: royalblue;
+  --text-secondary: rgb(255, 255, 255);
   --accent: purple;
 }
 [data-theme='dark'] {
