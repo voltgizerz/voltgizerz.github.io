@@ -23,8 +23,8 @@ const Profile = () => (
             height="170"
             alt="profile-pic"
         />
-        <h1>Felix Fernando Wijaya</h1>
-        <h4>Software Engineer</h4>
+       <h1>Felix Fernando Wijaya</h1>
+       <h3>Software Engineer</h3>
         <p>
             "Hi, I'm Felix currently working as a Back-End Software Engineer at Tokopedia. I graduated from Atma Jaya Yogyakarta University with a strong interest and passion for software development, especially in the back-end processes. I love to create something impactful and fight with logic."
         </p>
@@ -51,7 +51,7 @@ const Skills = ({ title, skills }) => (
 // ContactLinks Component
 const ContactLinks = () => (
     <div>
-        <h4>Connect with Me</h4>
+        <h4>Let's Connect!</h4>
         <section id="connect-with-me" className="flex-project-container">
             {Object.keys(imageConfig).slice(0, 4).map(key => (
                 <div key={key}>
@@ -128,10 +128,10 @@ const Banner = () => {
     return (
         <section className="container-banner">
             <Profile />
-            <Skills title="Languages" skills={languages} />
-            <Skills title="Frameworks" skills={frameworks} />
-            <Skills title="Databases" skills={databases} />
-            <Skills title="Knowledges" skills={knowledges} />
+            <Skills title="Programming Languages" skills={languages} />
+            <Skills title="Frameworks & Libraries" skills={frameworks} />
+            <Skills title="Databases & Storage" skills={databases} />
+            <Skills title="Technical Knowledge & Tools" skills={knowledges} />
             <ContactLinks />
         </section>
     );
