@@ -1,13 +1,13 @@
 import React from 'react';
 import linkedin from '../Components/public/image/linkedin.png';
-import twitter from '../Components/public/image/twitter.png';
-import github from '../Components/public/image/github.png';
+import x from '../Components/public/image/x.png';
+import github from '../Components/public/image/git.png';
 import mail from '../Components/public/image/mail.png';
 
 // Configuration for email image and other images
 const imageConfig = {
     linkedin: linkedin,
-    twitter: twitter,
+    x: x,
     github: github,
     mail: mail,
     profilePic: "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbG56ems3YW0xNjc1MzBmbDFqNXprczB3ciIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbH19"
@@ -72,7 +72,7 @@ const ContactLinks = () => (
 const getLink = (key) => {
     const links = {
         linkedin: "https://www.linkedin.com/in/felix-fernando-wijaya/",
-        twitter: "https://twitter.com/felix_fernand0",
+        x: "https://x.com/felix_fernand0",
         github: "https://github.com/voltgizerz",
         mail: "https://mail.google.com/mail/?view=cm&fs=1&to=felix.fernandowi@gmail.com"
     };
