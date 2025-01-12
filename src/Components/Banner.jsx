@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import linkedin from '../Components/public/image/linkedin.png';
 import x from '../Components/public/image/x.png';
 import github from '../Components/public/image/git.png';
@@ -13,9 +13,14 @@ const imageConfig = {
     profilePic: "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbG56ems3YW0xNjc1MzBmbDFqNXprczB3ciIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbH19"
 };
 
+// Helper function to generate random IDs
+const generateRandomId = () => {
+    return 'section-' + Math.random().toString(36).substr(2, 9);
+};
+
 // Profile Component
 const Profile = () => (
-    <div>
+    <div id={generateRandomId()}>
         <img
             id="profile-pic"
             src={imageConfig.profilePic}
@@ -23,8 +28,8 @@ const Profile = () => (
             height="170"
             alt="profile-pic"
         />
-       <h1>Felix Fernando Wijaya</h1>
-       <h3>Software Engineer</h3>
+        <h1>Felix Fernando Wijaya</h1>
+        <h3>Software Engineer</h3>
         <p>
             "Hi, I'm Felix currently working as a Back-End Software Engineer at Tokopedia. I graduated from Atma Jaya Yogyakarta University with a strong interest and passion for software development, especially in the back-end processes. I love to create something impactful and fight with logic."
         </p>
@@ -33,7 +38,7 @@ const Profile = () => (
 
 // Skills Component
 const Skills = ({ title, skills }) => (
-    <div>
+    <div id={generateRandomId()}>
         <h4>{title}</h4>
         <h5>
             {skills.map(skill => (
@@ -50,7 +55,7 @@ const Skills = ({ title, skills }) => (
 
 // ContactLinks Component
 const ContactLinks = () => (
-    <div>
+    <div id={generateRandomId()}>
         <h4>Let's Connect!</h4>
         <section id="connect-with-me" className="flex-project-container">
             {Object.keys(imageConfig).slice(0, 4).map(key => (
