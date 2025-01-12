@@ -3,7 +3,8 @@
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    margin: auto;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
 
@@ -13,8 +14,10 @@
     border-style: hidden;
     padding: 18px;
     text-align: center;
-    top: 0;
+    top: auto;
     z-index: 1;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
 .navbar a {
@@ -25,6 +28,8 @@
     text-decoration: none;
     color: black;
     font-size: 17px;
+    margin-top: auto;
+    margin-bottom:auto;
 }
 
 .navbar a:hover {
@@ -32,6 +37,8 @@
     border-style: hidden;
     border-radius: 5px;
     color: rgb(255, 254, 253);
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
 @media screen and (max-width:500px) {
@@ -45,10 +52,7 @@
         display: flex;
         flex-direction: row;
         height: 50px;
-        padding-bottom: 14px;
-
     }
-
 }
 
 @media screen and (max-width:350px) {
