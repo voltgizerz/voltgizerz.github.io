@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import linkedin from '../Components/public/image/linkedin.png';
 import x from '../Components/public/image/x.png';
 import github from '../Components/public/image/git.png';
@@ -20,7 +19,7 @@ const generateRandomId = () => {
 
 // Profile Component
 const Profile = () => (
-    <div id={generateRandomId()}>
+    <div id={generateRandomId()} style={{ fontFamily: "'Poppins', sans-serif" }}>
         <img
             id="profile-pic"
             src={imageConfig.profilePic}
@@ -28,13 +27,15 @@ const Profile = () => (
             height="170"
             alt="profile-pic"
         />
-        <h1>Felix Fernando Wijaya</h1>
-        <h3>Software Engineer</h3>
-        <p>
-            "Hi, I'm Felix currently working as a Back-End Software Engineer at Tokopedia. I graduated from Atma Jaya Yogyakarta University with a strong interest and passion for software development, especially in the back-end processes. I love to create something impactful and fight with logic."
+        <h1 style={{ fontSize: "2rem", fontWeight: "700" }}>Felix Fernando Wijaya</h1>
+        <h3 style={{ fontSize: "1.5rem", fontWeight: "500", color: "#555" }}>Software Engineer</h3>
+        <p style={{ fontSize: "1.1rem", lineHeight: "1.6" }}>
+            "Hi, I'm Felix currently working as a Back-End Software Engineer at{" "}
+            <span style={{ color: "green", fontWeight: "bold" }}>Tokopedia</span>. I graduated from Atma Jaya Yogyakarta University with a strong interest and passion for software development, especially in the back-end processes. I love to create something impactful and fight with logic."
         </p>
     </div>
 );
+
 
 // Skills Component
 const Skills = ({ title, skills }) => (
