@@ -30,11 +30,19 @@ const Profile = () => (
         <h1 style={{ fontSize: "2rem", fontWeight: "700" }}>Felix Fernando Wijaya</h1>
         <h3 style={{ fontSize: "1.5rem", fontWeight: "500", color: "#555" }}>Software Engineer</h3>
         <p style={{ fontSize: "1.1rem", lineHeight: "1.6" }}>
-            "Hi, I'm Felix currently working as a Back-End Software Engineer at{" "}
-            <span style={{ color: "green", fontWeight: "bold" }}>Tokopedia</span>. I graduated from Atma Jaya Yogyakarta University with a strong interest and passion for software development, especially in the back-end processes. I love to create something impactful and fight with logic."
+            "Hello! I'm Felix, a Back-End Software Engineer with over 4 years of hands-on experience, currently working at{" "}
+            <a
+                href="https://www.tokopedia.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "green", fontWeight: "bold", textDecoration: "none" }}
+            >
+                Tokopedia
+            </a>. I  hold a degree from Atma Jaya Yogyakarta University with a strong interest and passion for software development, especially in back-end processes. I love to create something impactful and fight with logic."
         </p>
     </div>
 );
+
 
 
 // Skills Component

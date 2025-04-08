@@ -4,7 +4,26 @@
     text-align: center;
     text-transform: uppercase;
     margin: 0 auto;
+
+    height: 60px; /* Fix height to prevent layout shift */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
 }
+
+.fade {
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
 .navbar {
     background-color: rgb(255, 246, 246);
     border-radius: 15px;
@@ -206,4 +225,41 @@ p {
 span {
     color: #4CAF50;
     font-weight: bold;
+}
+
+.container-about {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 24px;
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 480px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+    .container-about {
+        width: 100vw;
+        border-radius: 0;
+        padding: 24px 16px;
+    }
+
+    #profile-pic {
+        width: 130px;
+        height: 130px;
+    }
+
+    .container-about > p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
 }
