@@ -30,7 +30,8 @@ const Profile = () => (
         <h1 style={{ fontSize: "2rem", fontWeight: "700" }}>Felix Fernando Wijaya</h1>
         <h3 style={{ fontSize: "1.5rem", fontWeight: "500", color: "#555" }}>Software Engineer</h3>
         <p style={{ fontSize: "1.1rem", lineHeight: "1.6" }}>
-            "Hello! I'm Felix, a Back-End Software Engineer with over 4 years of hands-on experience, currently working at{" "}
+            A Software Engineer with a degree in Informatics and over 4 years of hands-on experience in back-end development,
+            including 3 years in the payment industry. Currently working at{" "}
             <a
                 href="https://www.tokopedia.com"
                 target="_blank"
@@ -38,7 +39,9 @@ const Profile = () => (
                 style={{ color: "green", fontWeight: "bold", textDecoration: "none" }}
             >
                 Tokopedia
-            </a>. I  hold a degree from Atma Jaya Yogyakarta University with a strong interest and passion for software development, especially in back-end processes. I love to create something impactful and fight with logic."
+            </a>, where I build scalable and reliable systems for high-volume transactions. Passionate about crafting impactful
+            solutions through code and solving complex problems with clear logic. Continuously eager to learn new skills,
+            technologies, and best practices to improve performance and consistently deliver high-quality results.
         </p>
     </div>
 );
@@ -96,12 +99,12 @@ const getLink = (key) => {
 const Banner = () => {
     const languages = [
         { src: "https://img.shields.io/badge/-Go-black?style=flat-square&logo=Go", alt: "Go" },
-        { src: "https://img.shields.io/badge/-Python-black?style=flat-square&logo=python", alt: "Python" },
         { src: "https://img.shields.io/badge/-Ruby-black?style=flat-square&logo=ruby", alt: "Ruby" },
+        { src: "https://img.shields.io/badge/-Python-black?style=flat-square&logo=python", alt: "Python" },
         { src: "https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript", alt: "JavaScript" },
+        { src: "https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js", alt: "Node.js" },
         { src: "https://img.shields.io/badge/-PHP-black?style=flat-square&logo=php", alt: "PHP" },
         { src: "https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk", alt: "Java" },
-        { src: "https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js", alt: "Node.js" }
     ];
 
     const frameworks = [
@@ -112,6 +115,7 @@ const Banner = () => {
         { src: "https://img.shields.io/badge/-Flask-black?style=flat-square&logo=flask", alt: "Flask" },
         { src: "https://img.shields.io/badge/-Mux-black?style=flat-square&logo=mux", alt: "Mux" },
         { src: "https://img.shields.io/badge/-Gin-black?style=flat-square&logo=gin", alt: "Gin" },
+        { src: "https://img.shields.io/badge/-Fiber-black?style=flat-square&logo=fiber", alt: "Fiber" },
         { src: "https://img.shields.io/badge/-Gqlgen-black?style=flat-square&logo=gql-gen", alt: "gqlgen" }
     ];
 
@@ -136,7 +140,9 @@ const Banner = () => {
         { src: "https://img.shields.io/badge/-NSQ-black?style=flat-square&logo=nsq", alt: "NSQ" },
         { src: "https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker", alt: "Docker" },
         { src: "https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux", alt: "Linux" },
-        { src: "https://img.shields.io/badge/-Amazon_Web_Service-black?style=flat-square&logo=amazon-aws", alt: "AWS" }
+        { src: "https://img.shields.io/badge/-Amazon_Web_Service-black?style=flat-square&logo=amazon-aws", alt: "AWS" },
+        { src: "https://img.shields.io/badge/-Unit_Testing-black?style=flat-square&logo=testing-library", alt: "Unit Testing" },
+        { src: "https://img.shields.io/badge/-New_Relic-black?style=flat-square&logo=new-relic", alt: "New Relic" }
     ];
 
     return (
