@@ -98,52 +98,52 @@ const getLink = (key) => {
 
 const Banner = () => {
     const languages = [
-        { src: "https://img.shields.io/badge/-Go-black?style=flat-square&logo=Go", alt: "Go" },
-        { src: "https://img.shields.io/badge/-Ruby-black?style=flat-square&logo=ruby", alt: "Ruby" },
-        { src: "https://img.shields.io/badge/-Python-black?style=flat-square&logo=python", alt: "Python" },
-        { src: "https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript", alt: "JavaScript" },
-        { src: "https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js", alt: "Node.js" },
-        { src: "https://img.shields.io/badge/-PHP-black?style=flat-square&logo=php", alt: "PHP" },
-        { src: "https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk", alt: "Java" },
-    ];
+    { src: "https://img.shields.io/badge/-Go-black?style=flat-square&logo=Go", alt: "Go" },
+    { src: "https://img.shields.io/badge/-Ruby-black?style=flat-square&logo=Ruby", alt: "Ruby" },
+    { src: "https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python", alt: "Python" },
+    { src: "https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=JavaScript", alt: "JavaScript" },
+    { src: "https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=Node.js", alt: "Node.js" },
+    { src: "https://img.shields.io/badge/-PHP-black?style=flat-square&logo=PHP", alt: "PHP" },
+    { src: "https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk", alt: "Java" },
+];
 
-    const frameworks = [
-        { src: "https://img.shields.io/badge/-Ruby_on_Rails-black?style=flat-square&logo=ruby-on-rails", alt: "Rails" },
-        { src: "https://img.shields.io/badge/-CodeIgniter-black?style=flat-square&logo=codeigniter", alt: "CodeIgniter" },
-        { src: "https://img.shields.io/badge/-Laravel-black?style=flat-square&logo=laravel", alt: "Laravel" },
-        { src: "https://img.shields.io/badge/-Express.js-black?style=flat-square&logo=express", alt: "Express" },
-        { src: "https://img.shields.io/badge/-Flask-black?style=flat-square&logo=flask", alt: "Flask" },
-        { src: "https://img.shields.io/badge/-Mux-black?style=flat-square&logo=mux", alt: "Mux" },
-        { src: "https://img.shields.io/badge/-Gin-black?style=flat-square&logo=gin", alt: "Gin" },
-        { src: "https://img.shields.io/badge/-Fiber-black?style=flat-square&logo=fiber", alt: "Fiber" },
-        { src: "https://img.shields.io/badge/-Gqlgen-black?style=flat-square&logo=gql-gen", alt: "gqlgen" }
-    ];
+const frameworks = [
+    { src: "https://img.shields.io/badge/-Ruby_on_Rails-black?style=flat-square&logo=ruby-on-rails", alt: "Rails" },
+    { src: "https://img.shields.io/badge/-CodeIgniter-black?style=flat-square&logo=codeigniter", alt: "CodeIgniter" },
+    { src: "https://img.shields.io/badge/-Laravel-black?style=flat-square&logo=laravel", alt: "Laravel" },
+    { src: "https://img.shields.io/badge/-Express-black?style=flat-square&logo=express", alt: "Express" },
+    { src: "https://img.shields.io/badge/-Flask-black?style=flat-square&logo=flask", alt: "Flask" },
+    { src: "https://img.shields.io/badge/-Mux-black?style=flat-square&logo=go", alt: "Mux" },
+    { src: "https://img.shields.io/badge/-Gin-black?style=flat-square&logo=go", alt: "Gin" },
+    { src: "https://img.shields.io/badge/-Fiber-black?style=flat-square&logo=go", alt: "Fiber" },
+    { src: "https://img.shields.io/badge/-gqlgen-black?style=flat-square&logo=graphql", alt: "gqlgen" }
+];
 
-    const databases = [
-        { src: "https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql", alt: "MySQL" },
-        { src: "https://img.shields.io/badge/-PostgreSQL-black?style=flat-square&logo=postgresql", alt: "PostgreSQL" },
-        { src: "https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb", alt: "MongoDB" },
-        { src: "https://img.shields.io/badge/-Redis-black?style=flat-square&logo=redis", alt: "Redis" }
-    ];
+const databases = [
+    { src: "https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql", alt: "MySQL" },
+    { src: "https://img.shields.io/badge/-PostgreSQL-black?style=flat-square&logo=postgresql", alt: "PostgreSQL" },
+    { src: "https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb", alt: "MongoDB" },
+    { src: "https://img.shields.io/badge/-Redis-black?style=flat-square&logo=redis", alt: "Redis" }
+];
 
-    const knowledges = [
-        { src: "https://img.shields.io/badge/-Git-black?style=flat-square&logo=git", alt: "Git" },
-        { src: "https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github", alt: "GitHub" },
-        { src: "https://img.shields.io/badge/-Bitbucket-black?style=flat-square&logo=bitbucket", alt: "Bitbucket" },
-        { src: "https://img.shields.io/badge/-Microservices-black?style=flat-square&logo=microservices", alt: "Microservices"},
-        { src: "https://img.shields.io/badge/-Concurrency-black?style=flat-square&logo=concurrency", alt: "Concurrency"},
-        { src: "https://img.shields.io/badge/-REST_APIs-black?style=flat-square&logo=api", alt: "REST APIs" },
-        { src: "https://img.shields.io/badge/-GraphQL-black?style=flat-square&logo=graphql", alt: "GraphQL" },
-        { src: "https://img.shields.io/badge/-gRPC-black?style=flat-square&logo=gRPC", alt: "gRPC" },
-        { src: "https://img.shields.io/badge/-Apollo%20GraphQL-black?style=flat-square&logo=apollo-graphql", alt: "Apollo GraphQL" },
-        { src: "https://img.shields.io/badge/-RabbitMQ-black?style=flat-square&logo=rabbitmq", alt: "RabbitMQ" },
-        { src: "https://img.shields.io/badge/-NSQ-black?style=flat-square&logo=nsq", alt: "NSQ" },
-        { src: "https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker", alt: "Docker" },
-        { src: "https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux", alt: "Linux" },
-        { src: "https://img.shields.io/badge/-Amazon_Web_Service-black?style=flat-square&logo=amazon-aws", alt: "AWS" },
-        { src: "https://img.shields.io/badge/-Unit_Testing-black?style=flat-square&logo=testing-library", alt: "Unit Testing" },
-        { src: "https://img.shields.io/badge/-New_Relic-black?style=flat-square&logo=new-relic", alt: "New Relic" }
-    ];
+const knowledges = [
+    { src: "https://img.shields.io/badge/-Git-black?style=flat-square&logo=git", alt: "Git" },
+    { src: "https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github", alt: "GitHub" },
+    { src: "https://img.shields.io/badge/-Bitbucket-black?style=flat-square&logo=bitbucket", alt: "Bitbucket" },
+    { src: "https://img.shields.io/badge/-Microservices-black?style=flat-square&logo=vercel", alt: "Microservices" },
+    { src: "https://img.shields.io/badge/-Concurrency-black?style=flat-square&logo=gear", alt: "Concurrency" },
+    { src: "https://img.shields.io/badge/-REST_APIs-black?style=flat-square&logo=swagger", alt: "REST APIs" },
+    { src: "https://img.shields.io/badge/-GraphQL-black?style=flat-square&logo=graphql", alt: "GraphQL" },
+    { src: "https://img.shields.io/badge/-gRPC-black?style=flat-square&logo=grpc", alt: "gRPC" },
+    { src: "https://img.shields.io/badge/-Apollo%20GraphQL-black?style=flat-square&logo=apollo-graphql", alt: "Apollo GraphQL" },
+    { src: "https://img.shields.io/badge/-RabbitMQ-black?style=flat-square&logo=rabbitmq", alt: "RabbitMQ" },
+    { src: "https://img.shields.io/badge/-NSQ-black?style=flat-square&logo=nsq", alt: "NSQ" },
+    { src: "https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker", alt: "Docker" },
+    { src: "https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux", alt: "Linux" },
+    { src: "https://img.shields.io/badge/-Amazon_Web_Services-black?style=flat-square&logo=amazon-aws", alt: "AWS" },
+    { src: "https://img.shields.io/badge/-Unit_Testing-black?style=flat-square&logo=testing-library", alt: "Unit Testing" },
+    { src: "https://img.shields.io/badge/-New_Relic-black?style=flat-square&logo=new-relic", alt: "New Relic" }
+];
 
     return (
         <section className="container-banner">
