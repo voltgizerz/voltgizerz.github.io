@@ -30,15 +30,19 @@ const Profile = () => (
         <h1 style={{ fontSize: "2rem", fontWeight: "700" }}>Felix Fernando Wijaya</h1>
         <h3 style={{ fontSize: "1.5rem", fontWeight: "500", color: "#555" }}>Software Engineer</h3>
         <p style={{ fontSize: "1.1rem", lineHeight: "1.6" }}>
-            A Software Engineer with a degree in Informatics and over 4 years of hands-on experience in back-end development,
+            A Software Engineer with a degree in Informatics and over 5 years of hands-on experience in back-end development,
             including 3 years in the payment industry. Currently working at{" "}
             <a
-                href="https://www.tokopedia.com"
+                href="https://www.bytedance.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "green", fontWeight: "bold", textDecoration: "none" }}
+                style={{
+                    color: "#2F88FF",
+                    fontWeight: "bold",
+                    textDecoration: "none"
+                }}
             >
-                Tokopedia
+            ByteDance
             </a>, where I build scalable and reliable systems for high-volume transactions. Passionate about crafting impactful
             solutions through code and solving complex problems with clear logic. Continuously eager to learn new skills,
             technologies, and best practices to improve performance and consistently deliver high-quality results.
